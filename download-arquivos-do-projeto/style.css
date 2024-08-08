@@ -5,10 +5,40 @@
 .topo{
     display: flex;
     align-items: center;
-    margin-left: 50px;
 }
 .centro{
     max-width: 1024px;
     margin:auto;
-    height: 10%;
+}
+.topo img{
+    width: 4%;
+}
+.topo h1{
+    color: rgb(160, 58, 255);
+    text-decoration: none;
+    font-weight: normal;
+}
+.background-formulario{
+    background-image: url(assets/imagens/bahia.jpg);
+    height: 92vh;
+    width: 100vw;
+}
+.secao-formulario{
+    display: flex;
+    flex-direction: column;
+}
+.topo-formulario{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(160, 58, 255);
+    justify-content: center;
+}
+.topo-formulario img{
+    width: 20px;
+    padding: 8px;
+
+}
+.topo-formulario h3{
+    display: flex;
+    align-items: center;
 }
