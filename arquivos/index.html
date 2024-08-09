@@ -37,14 +37,15 @@
                     </form>
                 </div>
                 <div class="secao-formulario-datas">
-                    <div class="">
+                    <div class="entrada-dados-paralelo">
                         <form class="formulario-data" action="">
                             <label for="">Data da ida</label>
                             <input type="date" name="data-ida" id="" placeholder="">
 
                             <label for="">Origem</label>
                             <input type="text" name="origem" id="" placeholder="Partindo de">
-
+                        </form>
+                        <form class="formulario-data" action="">
                             <label for="">Data da volta</label>
                             <input type="date" name="data-volta" id="">
 
@@ -54,36 +55,52 @@
                     </div>
                 </div>
                 <div>    
-                    <div>
-                        <form class="formulario-checkbox" action="">
-                            <label for="">Quarto com cama infantil?</label>
-                    
-                            <input type="checkbox" name="" id="">
-                            <label for="">sim</label>
-                            <input type="checkbox" name="" id="">
-                            <label for="">não</label>
+                    <div class="checkbox">
+                        <div>
+                            <p>Quarto com cama infantil?</p>
+                        </div>
+                        <form class="formulario-checkbo" action="">
+
+                            <div class="formulario-checkbox">
+                                <input type="checkbox" name="" id="">
+                                <label for="">sim</label>
+                            </div>
+
+                            <div class="formulario-checkbox">
+                                <input type="checkbox" name="" id="">
+                                <label for="">não</label>
+                            </div>
+
                         </form>
                     </div>
                 </div>
-                <div>
+                <div class="checkbox">
+                    <p>Preferencias da hospedagem</p>
+                    <form class="formulario-checkbo" action="">
 
-                    <form class="formulario-ckeckbox" action="">
-                        <h1>Preferencias da hospedagem</h1>
-                        <input type="checkbox" name="" id="">
-                        <label for="">Piscina</label>
+                        <div class="formulario-checkbox">
+                            <input type="checkbox" name="" id="">
+                            <label for="">Piscina</label>
+                        </div>
 
-                        <input type="checkbox" name="" id="">
-                        <label for="Wi-fi">Wi-fi</label>
+                        <div class="formulario-checkbox">
+                            <input type="checkbox" name="" id="">
+                            <label for="Wi-fi">Wi-fi</label>
+                        </div>
 
-                        <input type="checkbox" name="" id="">
-                        <label for="">Garagem</label>
+                        <div class="formulario-checkbox">
+                            <input type="checkbox" name="" id="">
+                            <label for="">Garagem</label>
+                        </div>
 
-                        <input type="checkbox" name="" id="">
-                        <label for="">Suite</label>
+                        <div class="formulario-checkbox">
+                            <input type="checkbox" name="" id="">
+                            <label for="">Suite</label>
+                        </div>
                     </form>
                 </div>
-                <div>
-                    <input class="button" type="button" name="Solicitar orçamento" id="">
+                <div class="">
+                    <button>Solicitar orçamento</button>
                 </div>
             </div>
         </section>
@@ -168,7 +185,6 @@
                 <h4>@AgenciaDeViagem</h4>
             </div>
         </div>
-        <h1>teste1</h1>
     </footer>
 </body>
 </html>

@@ -20,13 +20,16 @@
 }
 .background-formulario{
     background-image: url(assets/imagens/bahia.jpg);
-    height: 92vh;
+    height: 100vh;
     width: 100vw;
+    display: flex;
+    align-items: center;
 }
 .secao-formulario{
     display: flex;
     flex-direction: column;
     background-color: white;
+    width: 1024px;
 }
 .topo-formulario{
     display: flex;
@@ -61,6 +64,10 @@
     margin: 5px 20px 5px 20px;
     padding: 7px;
 }
+.entrada-dados-paralelo{
+    display: flex;
+    flex-wrap: wrap;
+}
 .secao-formulario-datas{
     display: flex;
     flex-direction: column;
@@ -68,8 +75,9 @@
 }
 .formulario-data{
     justify-content: space-between;
-    flex: wrap column;
+    flex-direction: column;
     display: flex;
+    width: 50%;
 }
 .formulario-data label{
     margin: 5px 20px 5px 20px;
@@ -79,4 +87,24 @@
     margin: 5px 20px 5px 20px;
     padding: 7px;
 }
-
+.checkbox{
+    margin: 10px auto 10px 20px;
+}
+.formulario-checkbo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.formulario-checkbox{
+    margin: 15px 50px 15px 0px;
+}
+button{
+    background-color: rgb(160, 58, 255);
+    color: white;
+    padding: 10px;
+    border: none;
+    margin: 10px auto 20px 20px;
+}
+button:hover{
+    background-color: rgb(179, 114, 240);
+    
+}
