@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topo{
+    display: flex;
+    align-items: center;
+}
+.centro{
+    max-width: 1024px;
+    margin:auto;
+}
+.topo img{
+    width: 4%;
+}
+.topo h1{
+    color: rgb(160, 58, 255);
+    text-decoration: none;
+    font-weight: normal;
+}
+.background-formulario{
+    background-image: url(assets/imagens/bahia.jpg);
+    height: 92vh;
+    width: 100vw;
+}
+.secao-formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.topo-formulario{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(160, 58, 255);
+    justify-content: center;
+}
+.topo-formulario img{
+    width: 20px;
+    padding: 8px;
+
+}
+.topo-formulario h3{
+    display: flex;
+    align-items: center;
+}
+.titulo-formulario{
+    margin: 20px 15px 20px 15px;
+}
+.estrada-dados-formulario{
+    display: flex;
+    flex-direction: column;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+.formulario label{
+    margin: 5px 20px 5px 20px;
+}
+.formulario input{
+    margin: 5px 20px 5px 20px;
+    padding: 7px;
+}
+.secao-formulario-datas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.formulario-data{
+    justify-content: space-between;
+    flex: wrap column;
+    display: flex;
+}
+.formulario-data label{
+    margin: 5px 20px 5px 20px;
+    
+}
+.formulario-data input{
+    margin: 5px 20px 5px 20px;
+    padding: 7px;
+}
+
