@@ -108,3 +108,29 @@ button:hover{
     background-color: rgb(179, 114, 240);
     
 }
+
+.container-imagens-titulos{
+    margin: 20px auto 20px auto;
+}
+.container-imagens-titulos p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+span{
+    font-weight: bold;
+}
+.container-imagens-cidades{
+    display: flex;
+    flex-direction: row;
+
+}
+.rio-de-janeiro img{
+    width: 100%;
+}
+.cidades img{
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
